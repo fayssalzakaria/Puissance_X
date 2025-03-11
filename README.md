@@ -23,8 +23,8 @@ Puissance4/ ├── interface.py # Interface graphique du jeu (utilise une bib
 git clone https://github.com/fayssalzakaria/puissance4.git
 2. Accédez au dossier du projet :
 
-cd puissance4
+```cd puissance4
 
 3.Assurez-vous d'avoir installé les dépendances nécessaires avec les commande suivantes :
-  pip install numpy
+  ```pip install numpy
   pip install pygame
