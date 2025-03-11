@@ -27,6 +27,7 @@ git clone https://github.com/fayssalzakaria/puissance4.git
 
 cd puissance4
 
+
 3.Assurez-vous d'avoir installé les dépendances nécessaires avec les commande suivantes :
 
 
