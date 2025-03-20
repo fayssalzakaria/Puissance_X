@@ -37,4 +37,5 @@ cd puissance4
 ##  Auteurs  
 **Fayssal**  
 - Email : fayssal.132004@gmail.com
+  
 **Nicolas**  
