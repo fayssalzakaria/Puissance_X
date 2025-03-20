@@ -34,6 +34,7 @@ cd puissance4
   pip install numpy
   pip install pygame
   
-##  Auteur  
+##  Auteurs  
 **Fayssal**  
 - Email : fayssal.132004@gmail.com
+**Nicolas**  
