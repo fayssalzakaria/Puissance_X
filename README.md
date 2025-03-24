@@ -33,7 +33,13 @@ cd puissance4
 
   pip install numpy
   pip install pygame
-  
+## Screenshots
+
+Voici quelques captures d'écran du projet :
+
+![Menu principal]("Screen 1.png")
+![Difficulte]("Screen 2.png")
+![Fin jeu]("Screen 3.png")
 ##  Auteurs  
 **Fayssal**  
 - Email : fayssal.132004@gmail.com
