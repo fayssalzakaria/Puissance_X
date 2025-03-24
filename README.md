@@ -37,9 +37,9 @@ cd puissance4
 
 Voici quelques captures d'écran du projet :
 
-![Menu principal]("Screen_1.png")
-![Difficulte]("Screen_2.png")
-![Fin jeu]("Screen_3.png")
+![Menu principal](Screen_1.png)
+![Difficulte](Screen_2.png)
+![Fin jeu](Screen_3.png)
 ##  Auteurs  
 **Fayssal**  
 - Email : fayssal.132004@gmail.com
