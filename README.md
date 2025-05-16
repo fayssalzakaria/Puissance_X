@@ -2,7 +2,7 @@
 
 ## Description
 
-**Puissance4** est un jeu de société où un joueur humain affronte une **Intelligence Artificielle (IA)**. Le jeu se joue sur un plateau de 6 lignes et 7 colonnes. L'objectif est d'aligner 4 jetons consécutifs (horizontalement, verticalement ou en diagonale). L'IA utilise l'algorithme **Minimax avec élagage alpha-bêta** pour déterminer ses mouvements en fonction du niveau de difficulté : facile, moyen ou difficile.
+**Puissance X** est un jeu de société où un joueur humain affronte une **Intelligence Artificielle (IA)**. Le jeu se joue sur un plateau de 6 lignes et 7 colonnes. L'objectif est d'aligner 4 jetons consécutifs (horizontalement, verticalement ou en diagonale). L'IA utilise l'algorithme **Minimax avec élagage alpha-bêta** pour déterminer ses mouvements en fonction du niveau de difficulté : facile, moyen ou difficile.
 
 ### Fonctionnalités
 
