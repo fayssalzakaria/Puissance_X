@@ -2,7 +2,7 @@
 
 ## Description
 
-**Puissance X** est un jeu de société où un joueur humain affronte une **Intelligence Artificielle (IA)**. Le jeu se joue sur un plateau de 6 lignes et 7 colonnes. L'objectif est d'aligner 4 jetons consécutifs (horizontalement, verticalement ou en diagonale). L'IA utilise l'algorithme **Minimax avec élagage alpha-bêta** pour déterminer ses mouvements en fonction du niveau de difficulté : facile, moyen ou difficile.
+**Puissance X** est un jeu de société où un joueur humain affronte une **Intelligence Artificielle (IA)**. Le jeu se joue sur un plateau de 6 lignes et 7 colonnes par default (on peut changer ces valeurs de 5 a 10). L'objectif est d'aligner 4 jetons consécutifs par default, on peux choisir d'en aligner 3,4,5,6 ou 7 (horizontalement, verticalement ou en diagonale). L'IA utilise l'algorithme **Minimax avec élagage alpha-bêta** pour déterminer ses mouvements en fonction du niveau de difficulté : facile, moyen ou difficile.
 
 ### Fonctionnalités
 
@@ -11,6 +11,7 @@
 - **Algorithme Minimax avec élagage alpha-bêta** pour le choix des mouvements de l'IA.
 - **Interface graphique** : Utilisation d'une interface pour une expérience de jeu agréable.
 - **Évaluation avancée des positions** en fonction du contrôle du centre du plateau et des configurations gagnantes.
+-  **Tournois entre ia avec resultats** .
 
 ## Structure du projet
 
