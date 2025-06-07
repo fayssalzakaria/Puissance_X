@@ -14,8 +14,9 @@
 -  **Tournois entre ia avec resultats** .
 
 ## Structure du projet
-
+```
 Puissance4/ ├── interface.py # Interface graphique du jeu (utilise une bibliothèque comme tkinter ou pygame) ├── game.py # Logique du jeu, qui gère les interactions entre l'utilisateur et l'IA ├── game_logic.py # Logique de base du jeu (vérification des coups, ajout des pièces, vérification de la victoire) ├── constants.py # Constantes du jeu (dimensions du plateau, pièces du joueur et de l'IA) ├── ai.py # Implémentation de l'IA utilisant l'algorithme Minimax └── main.py # Script principal pour démarrer le jeu
+```
 ## Installation
 
 1. Clonez le dépôt :
