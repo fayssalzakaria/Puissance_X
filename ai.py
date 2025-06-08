@@ -216,7 +216,7 @@ def get_ai_move(board, difficulty, win_condition=4):
         undo_move(board, row, col)
 
     # Détermine la profondeur de recherche selon la difficulté
-    depth = {"easy":0, "medium":3 , "hard": 4}.get(difficulty, 2)
+    depth = {"easy":1, "medium":3 , "hard": 4}.get(difficulty, 2)
 
     try:
         best_col, _ = minimax(board, depth, float("-inf"), float("inf"), True, win_condition)
