@@ -50,26 +50,37 @@ Le fichier `ai_match_tester.py` simule automatiquement des séries de matchs ent
 
 ```
 Puissance_X/
-├── ai.py
-├── ai_match_tester.py
-├── constants.py
-├── credits_screen.py
-├── evaluation.py
-├── game.py
-├── game_logic.py
-├── game_screen.py
-├── interface.py
 ├── main.py
-├── main_menu.py
 ├── match_results.json
-├── settings_screen.py
-├── images/
-│ ├── end.png
-│ ├── jeux.png
-│ ├── main_menu.png
-│ ├── parametre_iavsia.png
-│ └── parametres.png
+├── settings/
+│   ├── __init__.py
+│   ├── constants.py
+│   └── settings_screen.py
+├── game/
+│   ├── __init__.py
+│   ├── ai.py
+│   ├── evaluation.py
+│   ├── game_logic.py
+│   ├── game_screen.py
+│   └── game.py
+├── tournament/
+│   ├── __init__.py
+│   └── ai_match_tester.py
+├── ui/
+│   ├── __init__.py
+│   ├── interface.py
+│   └── credits_screen.py
+├── menu/
+│   ├── __init__.py
+│   └── main_menu.py
+├── images/  
+│   ├── end.png
+│   ├── jeux.png
+│   ├── main_menu.png
+│   ├── parametres.png
+│   └── parametre_iavsia.png
 └── README.md
+
 ```
 ## Installation et lancement
 
@@ -94,7 +105,7 @@ python main.py
 
 5. Lancez le tournoi IA vs IA pour analyser les performances :
 
-python ai_match_tester.py
+python tournament/ai_match_tester.py
 
 ## Screenshots
 
