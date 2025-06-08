@@ -1,9 +1,9 @@
 import pygame
-from main_menu import MainMenu
-from constants import *
-from settings_screen import SettingsScreen
-from game_screen import GameScreen
-from credits_screen import CreditsScreen
+from menu.main_menu import MainMenu
+from settings.constants import *
+from settings.settings_screen import SettingsScreen
+from game.game_screen import GameScreen
+from ui.credits_screen import CreditsScreen
 
 class Game:
     """
