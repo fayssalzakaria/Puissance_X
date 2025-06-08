@@ -8,7 +8,7 @@
 
 Puissance X permet à un joueur humain d’affronter une IA sur un plateau par défaut de **6 lignes et 7 colonnes**, avec un objectif par défaut de **4 jetons alignés**. Ces paramètres peuvent être ajustés :
 
-- **Taille du plateau :** de 5x5 à 10x10
+- **Taille du plateau :** de 5x5 à 10x10  
 - **Condition de victoire :** aligner 3 à 7 jetons
 
 L’IA utilise l’algorithme **Minimax** avec **élagage alpha-bêta**, avec trois niveaux de difficulté :
@@ -20,11 +20,11 @@ L’IA utilise l’algorithme **Minimax** avec **élagage alpha-bêta**, avec tr
 
 ## 🚀 Fonctionnalités principales
 
-- 👤 **Mode solo** : un joueur contre l’IA
-- 🎯 **Trois niveaux d’IA** : facile, moyen, difficile
-- 🧠 **IA basée sur Minimax + alpha-bêta pruning**
-- 🖼️ **Interface graphique** intuitive via `pygame`
-- 📊 **Tournoi automatisé IA vs IA** avec sauvegarde des statistiques en JSON
+- 👤 **Mode solo** : un joueur contre l’IA  
+- 🎯 **Trois niveaux d’IA** : facile, moyen, difficile  
+- 🧠 **IA basée sur Minimax + alpha-bêta pruning**  
+- 🖼️ **Interface graphique** intuitive via `pygame`  
+- 📊 **Tournoi automatisé IA vs IA** avec sauvegarde des statistiques en JSON  
 - 🧩 **Grille personnalisable** (dimensions et condition de victoire)
 
 ---
@@ -48,28 +48,32 @@ Le fichier `ai_match_tester.py` simule automatiquement des séries de matchs ent
 
 ## 🗂️ Architecture du projet
 
-
 ```
 Puissance_X/
-├── ai.py # Algorithmes Minimax, heuristiques d'évaluation
-├── ai_match_tester.py # Simulation de tournois entre IA
-├── constants.py # Paramètres globaux (couleurs, tailles, etc.)
-├── credits_screen.py # Écran des crédits
-├── evaluation.py # Évaluation IA vs IA (autre implémentation)
-├── game.py # Logique du jeu joueur vs IA
-├── game_logic.py # Fonctions de base (vérification de victoire, placement, etc.)
-├── game_screen.py # Rendu graphique du plateau
-├── interface.py # Logique de l'interface Pygame
-├── main.py # Point d’entrée de l’application
-├── main_menu.py # Menu principal (jouer, options, quitter)
-├── match_results.json # Résultats des matchs IA vs IA (généré automatiquement)
-├── settings_screen.py # Menu de configuration des paramètres du jeu
-└── README.md # Ce fichier
+├── ai.py
+├── ai_match_tester.py
+├── constants.py
+├── credits_screen.py
+├── evaluation.py
+├── game.py
+├── game_logic.py
+├── game_screen.py
+├── interface.py
+├── main.py
+├── main_menu.py
+├── match_results.json
+├── settings_screen.py
+├── images/
+│ ├── end.png
+│ ├── jeux.png
+│ ├── main_menu.png
+│ ├── parametre_iavsia.png
+│ └── parametres.png
+└── README.md
 ```
 ## Installation et lancement
 
 1. Clonez le dépôt :
-
 
 git clone https://github.com/fayssalzakaria/puissance4.git
 cd Puissance_X
@@ -96,9 +100,21 @@ python ai_match_tester.py
 
 Voici quelques captures d'écran du projet :
 
-![Menu principal](Screen_1.PNG)
-![Difficulte](Screen_2.PNG)
-![Fin jeu](Screen_3.PNG)
+![Menu principal](images/main_menu.png)  
+Menu principal
+
+![Paramètre joueur vs IA](images/parametres.png)  
+Paramètre joueur vs IA
+
+![Paramètre IA vs IA](images/parametres_iavsia.png)  
+Paramètre IA vs IA
+
+![Écran de jeu](images/jeux.png)  
+Écran de jeu
+
+![Écran de fin](images/end.png)  
+Écran de fin
+
 ##  Auteurs  
 **Fayssal**  
 - Email : fayssal.132004@gmail.com
