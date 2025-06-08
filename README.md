@@ -103,13 +103,13 @@ Voici quelques captures d'écran du projet :
 ![Menu principal](images/main_menu.png)  
 Menu principal
 
-![Paramètre joueur vs IA](images/parametres.PNG)  
+![Paramètre joueur vs IA](images/parametres.png)  
 Paramètre joueur vs IA
 
-![Paramètre IA vs IA](images/parametres_iavsia.PNG)  
+![Paramètre IA vs IA](images/parametres_iavsia.png)  
 Paramètre IA vs IA
 
-![Écran de jeu](images/jeux.PNG)  
+![Écran de jeu](images/jeux.png)  
 Écran de jeu
 
 ![Écran de fin](images/end.png)  
